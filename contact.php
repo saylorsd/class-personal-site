@@ -2,11 +2,26 @@
 
 if (isset($_GET)) ;
 include('contact_handler.php');
+
+# Since phone and msg are not requried
+if (!isset($_GET['phone'])) {
+    $phone = '';
+} else {
+    $phone = $_GET['phone'];
+}
+
+if (!isset($_GET['msg'])) {
+    $msg = '';
+} else {
+    $msg = $_GET['msg'];
+}
+
 store_contact(
     $_GET['f_name'],
     $_GET['l_name'],
     $_GET['email'],
-    $_GET['msg']
+    $phone,
+    $msg
 );
 
 include('header.php'); ?>

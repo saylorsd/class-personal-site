@@ -49,7 +49,7 @@ function get_active($link)
             <ul class="dropdown menu" data-responsive-menu>
                 <li>
                     <a href="<?php echo $root_url ?>index.php" class="<?php echo get_active('index'); ?>">
-                        About Me
+                        Home
                     </a>
                 </li>
                 <li><a href="<?php echo $root_url ?>work.php" class="<?php echo get_active('work') ?>">Work</a></li>

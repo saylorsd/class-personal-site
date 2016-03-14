@@ -39,7 +39,7 @@ include('header.php');
             <div class="content-wrapper">
                 <h2>Maps</h2>
                 <h6>As part of wy work at UCSUR. I've been working on creating maps using
-                    <a target="_blank" href="http://www.cartodb.com">CartoDB</a>. Here's one, selected at random, one from the bunch
+                    <a target="_blank" href="http://www.cartodb.com">CartoDB</a>. Here's one (selected at random each time the page loads) one from the bunch
                     that I've made.
                 </h6>
                 <?php show_items($maps); ?>
