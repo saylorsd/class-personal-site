@@ -26,9 +26,10 @@
 }
 
 .content-wrapper {
-    padding: .5rem;
     background-color: #FFFFFF;
     height: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem
 }
 
 .content-container .row {
@@ -92,8 +93,46 @@ ul.inline-menu {
     text-align: center;
     font-family: 'Slabo 27px', serif;
     font-weight: 500;
+    padding-bottom: .5rem;
 }
 
 ul.inner-list li {
     list-style: none;
 }
+
+.alert {
+    color: red;
+}
+
+
+.lang-block {
+    width: 128px;
+    height: 128px;
+    margin: .25rem;
+}
+
+#contact-form {
+    padding: 1rem;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+#languages img{
+    vertical-align: middle;
+}
+
+#main-title {
+    font-weight:bold;
+    margin-bottom: 0;
+    color: #1a1a1a;
+}
+
+.testimonial h3 {
+    margin: 0;
+}
+.testimonial h6 {
+    font-style: italic;
+}
+

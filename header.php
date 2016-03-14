@@ -2,7 +2,6 @@
 
 $root_url = 'http://localhost/steve/';
 $curr_page = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-
 function get_active($link)
 {
     global $curr_page, $root_url;
@@ -32,7 +31,7 @@ function get_active($link)
 <div id="header">
     <div class="row">
         <div class="small-12 medium-6 large-6 columns" id="header-left">
-            <h1>Steven Saylor</h1>
+            <h1 id="main-title">Steven Saylor</h1>
             <h5>Full Stack Developer | Cool Guy</h5>
         </div>
     </div>
@@ -55,6 +54,7 @@ function get_active($link)
                 </li>
                 <li><a href="<?php echo $root_url ?>work.php" class="<?php echo get_active('work') ?>">Work</a></li>
                 <li><a href="<?php echo $root_url ?>projects.php" class="<?php echo get_active('projects') ?>">Projects</a></li>
+                <li><a href="<?php echo $root_url ?>skills.php" class="<?php echo get_active('skills') ?>">Skills</a></li>
                 <li><a href="<?php echo $root_url ?>testimonials.php" class="<?php echo get_active('testimonials') ?>">Testimonials</a></li>
                 <li><a href="<?php echo $root_url ?>contact.php" class="<?php echo get_active('contact') ?>">Contact Me</a></li>
             </ul>
